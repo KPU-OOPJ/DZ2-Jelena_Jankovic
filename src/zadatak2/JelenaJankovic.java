@@ -32,21 +32,19 @@ public class JelenaJankovic {
     public void ispis(){
         
       Scanner in = new Scanner (System.in);
-		String unos1, unos2 ;
-                
 		
+               
                 System.out.println("Unesi prvi string: ");
-		unos1 = in.nextLine();
+		s1 = in.nextLine();
                 
                 System.out.println("Unesi drugi string: ");
+		s2 = in.nextLine();
 		
-		unos2 = in.nextLine();
-		
-		if (unos1.equals(unos2)) {
-		    System.out.println("Stringovi su isti");
-		 } else {
-		     System.out.println("Stringovi su razliciti");
-		 }
+		if (s1.equals(s2)) {
+                    System.out.println("Stringovi su isti");
+                } else {
+                    System.out.println("Stringovi su razliciti");
+                }
         
        
     }
